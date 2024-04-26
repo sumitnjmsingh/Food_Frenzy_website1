@@ -89,7 +89,7 @@ function Front_food() {
                 <div className='lg:text-[30px] md:text-[20px]'><RiContactsFill /></div>
             </div>
             <div className=' grid grid-cols-[3fr_1fr] place-items-center '>
-                <div ><DrawerPlacement className="z-999999" callback={setval} callback2={setcheck}/></div>
+                <div  ><DrawerPlacement className="z-999999 " callback={setval} callback2={setcheck}/></div>
                 <div className='text-[40px]  flex relative '><TiShoppingCart className='z-[-1]' /><div className=' text-white font-semibold border-[solid] border-[2px] border-[red] flex text-[15px] w-[19px] h-[19px] justify-center items-center rounded-full bg-[red] absolute top-0 right-0 z-[-1]'>{count}</div></div>
             </div>
         </div> 
